@@ -39,6 +39,7 @@ class User extends CI_Controller
             'nama' => $this->input->post('nama'),
             'password' => md5($this->input->post('password')),
             'level' => $this->input->post('level'),
+
         );
         $this->db->insert('user', $data);
         $this->session->set_flashdata('alert', '<div class="alert alert-success alert-dismissible" role="alert">

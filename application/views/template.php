@@ -103,7 +103,7 @@
                         } ?></h2>
                   </div>
                   <div class="hd-message-info">
-                    <a href="#">
+                    <a href="<?= base_url('password') ?>">
                       <div class="hd-message-sn">
                         <div class="hd-message-img">
                           <img src="img/post/1.jpg" alt="" />
